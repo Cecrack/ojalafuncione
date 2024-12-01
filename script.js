@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
             logoutBtn.classList.add("hidden");
 
             if (window.location.pathname.includes('panelAdministracion.html')) {
-                window.location.href = "/index.html";
+                window.location.href = "index.html";
             }
         }
     });
