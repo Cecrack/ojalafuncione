@@ -243,7 +243,7 @@ if (adminPanelBtn) {
         logoutBtn.addEventListener("click", async () => {
             await signOut(auth);
             alert("Has cerrado sesión.");
-            window.location.href = "/index.html";
+            window.location.href = "index.html";
         });
     }
     
